@@ -14,6 +14,58 @@ body {
 }
 
 header {
-  height: 240px;
+  height: 280px;
   background: url('assets/logo-cis.png') 70% 90px no-repeat;
+}
+
+section {
+  margin: 48px 0 0;
+}
+
+section.babeth {
+  border-top: 1px dashed #cf112e;
+  border-bottom: 1px dashed #cf112e;
+  position: relative;
+}
+
+.portrait {
+  height: 267px;
+  width: 200px;
+  background: url('assets/portrait-babeth.jpg');
+  position: absolute;
+  top: -70px;
+  left: 160px;
+}
+
+.cv {
+  padding: 0 0 0 480px;
+}
+
+.cv ul {
+  background: #cf112e;
+  padding: 0 0 0 6px;
+}
+
+.cv li {
+  padding: 0.1em 0 0.1em 0.75em;
+  list-style-type: none;
+  background: white;
+}
+
+.nom {
+  color: #cf112e;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 1em 0 1em -2px;
+}
+
+.logo-lesmills {
+  width: 96px;
+  height: 14px;
+  background: url('assets/logo-lesmills.png') no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+  top: 1px;
 }
