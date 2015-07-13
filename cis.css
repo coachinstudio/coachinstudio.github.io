@@ -14,6 +14,6 @@ body {
 }
 
 header {
-  height: 200px;
-  background: url('assets/logo-cis.png') no-repeat;
+  height: 240px;
+  background: url('assets/logo-cis.png') 70% 90px no-repeat;
 }
