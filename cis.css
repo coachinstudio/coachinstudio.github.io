@@ -88,3 +88,96 @@ section.babeth {
 .activités dd {
   margin: 0;
 }
+
+.planning .activités-jour {
+  width: 25%;
+  float: left;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.activités-jour > dt {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+  text-shadow: none;
+  margin: 0 0 24px;
+  padding: 0 0 0 0.2em;
+}
+
+.activités-jour dl {
+  min-height: 80px;
+}
+
+.activités-jour dd {
+  margin: 0;
+}
+
+.activités-jour dd dt {
+  border-width: 2px;
+  border-style: solid;
+  width: 3em;
+  height: 2ex;
+  padding: 0.1em 1em 0.1em 0.1em;
+  border-top-right-radius: 2ex;
+}
+
+.activités-jour dd dd {
+  border-width: 2px;
+  border-style: solid;
+  padding: 1ex 1em;
+  width: 7em;
+  height: 2ex;
+  position: relative;
+  top: -2px;
+}
+
+.pilates * {
+  border-color: mediumseagreen;
+  background: mediumseagreen;
+}
+
+.pilates dd {
+  background: lightgreen;
+}
+
+.team-training * {
+  border-color: #cf112e;
+  background: #cf112e;
+}
+
+.team-training dd {
+  background: black;
+}
+
+.step * {
+  border-color: #dc345c;
+  background: #dc345c;
+}
+
+.step dd {
+  background: lightcoral;
+}
+
+.gym * {
+  border-color: rebeccapurple;
+  background: rebeccapurple;
+}
+
+.gym dd {
+  background: mediumpurple;
+}
+
+.renfo * {
+  border-color: #0069b0;
+  background: #0069b0;
+}
+
+.renfo dd {
+  background: #6994ca;
+}
+
+.tarifs {
+  clear: both;
+}
