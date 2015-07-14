@@ -123,61 +123,105 @@ section.babeth {
   border-top-right-radius: 2ex;
 }
 
-.activités-jour dd dd {
+.activités-jour dd dd, .tarifs dt:not(.header) {
   border-width: 2px;
   border-style: solid;
   padding: 1ex 1em;
   width: 7em;
-  height: 2ex;
   position: relative;
   top: -2px;
 }
 
-.pilates * {
+.pilates *, .tarifs .pilates {
   border-color: mediumseagreen;
   background: mediumseagreen;
 }
 
-.pilates dd {
+.pilates dd, .tarifs .pilates {
   background: lightgreen;
 }
 
-.team-training * {
+.team-training *, .tarifs .team-training {
   border-color: #cf112e;
   background: #cf112e;
 }
 
-.team-training dd {
+.team-training dd, .tarifs .team-training {
   background: black;
 }
 
-.step * {
+.step *, .tarifs .step {
   border-color: #dc345c;
   background: #dc345c;
 }
 
-.step dd {
+.step dd, .tarifs .step {
   background: lightcoral;
 }
 
-.gym * {
+.gym *, .tarifs .gym {
   border-color: rebeccapurple;
   background: rebeccapurple;
 }
 
-.gym dd {
+.gym dd, .tarifs .gym {
   background: mediumpurple;
 }
 
-.renfo * {
+.renfo *, .tarifs .renfo {
   border-color: #0069b0;
   background: #0069b0;
 }
 
-.renfo dd {
+.renfo dd, .tarifs .renfo {
   background: #6994ca;
 }
 
-.tarifs {
+.clearfix {
   clear: both;
+}
+
+.tarifs {
+  border-top: 1px dashed #cf112e;
+  background: #aaa;
+  color: white;
+  text-shadow: 0.05em 0.05em 0.05em black;
+  height: 480px;
+  padding: 48px 0 0 140px;
+}
+
+.tarifs dt {
+  float: left;
+  margin-right: 8em;
+}
+
+dt.header {
+  width: 7em;
+}
+
+.tarifs dt:not(.header) {
+  margin-top: 1ex;
+  margin-bottom: 2ex;
+}
+
+.tarifs dd:not(.header) {
+  margin-top: 2ex;
+}
+
+.tarifs span {
+  width: 15em;
+}
+
+.tarifs .header {
+  border: none;
+}
+
+.header {
+  font-variant: small-caps;
+  padding: 1ex 1em;
+  top: 0;
+}
+
+.tarifs span {
+  display: inline-block;
 }
