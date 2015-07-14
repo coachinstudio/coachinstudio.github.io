@@ -19,13 +19,14 @@ header {
 }
 
 section {
-  margin: 72px 0 0;
-  padding: 0 48px;
+  padding: 72px 48px;
 }
 
 section.babeth {
   border-top: 1px dashed #cf112e;
   position: relative;
+  margin-bottom: 72px;
+  padding: 0;
 }
 
 .portrait {
@@ -70,9 +71,10 @@ section.babeth {
   top: 1px;
 }
 
-.activités {
-  background: #cf112e;
+.activités, .contact {
   padding: 48px;
+  margin: 0;
+  background: #cf112e;
   color: white;
   text-shadow: 1px 1px 3px black;
 }
@@ -87,6 +89,10 @@ section.babeth {
 
 .activités dd {
   margin: 0;
+}
+
+.planning {
+  border-bottom: 1px dashed #cf112e;
 }
 
 .planning .activités-jour {
@@ -182,12 +188,11 @@ section.babeth {
 }
 
 .tarifs {
-  border-top: 1px dashed #cf112e;
   background: #aaa;
   color: white;
   text-shadow: 0.05em 0.05em 0.05em black;
   height: 480px;
-  padding: 48px 0 0 140px;
+  padding: 48px 0 48px 140px;
 }
 
 .tarifs dt {
@@ -224,4 +229,38 @@ dt.header {
 
 .tarifs span {
   display: inline-block;
+}
+
+.contact {
+  padding-bottom: 12px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 3ex 0 0;
+}
+
+.contact li {
+  display: inline-block;
+  padding-right: 80px;
+  padding-top: 12px;
+  height: 23px;
+}
+
+.contact li:last-of-type {
+  padding-right: 0px;
+}
+
+.contact li.facebook {
+  background: url('assets/logo-facebook.png') no-repeat;
+  padding-left: 40px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
